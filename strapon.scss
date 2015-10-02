@@ -1,56 +1,92 @@
-.grid-container{
-    width: 100%; 
-    max-width: 1200px;      
-}
-.row{
-    padding:0;
-    margin:0;
-}
-.row:before, 
-.row:after {
-    content:"";
-    display: table;
-    clear:both;
-}
+.grid-container {
+    width: 100%;
+    max-width: 1200px;
 
-[class*='col-'] {
-    float: left;
-    min-height: 1px;
-    width: 8.33%; 
-    padding:8px 0 8px 0; 
-    margin:0;
-/*  Debug lines         
-   border: 1px solid #FFC2C2; 
-   */
-}
+    .row {
+        padding: 0;
+        margin: 0;
+    }
 
-.col-center{
-    text-align:center;
-}
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
-.col-right{
-    text-align:right;
-}
+    [class*='col-'] {
+        float: left;
+        min-height: 1px;
+        width: 8.33%;
+        padding: 8px 0 8px 0;
+        margin: 0;
+        /*  Debug lines */
+        /* border: 1px solid #FFC2C2; */
+    }
 
-.col-tight{
-    padding:2px 0 2px 0; 
-}
+    .col-center {
+        text-align: center;
+    }
 
-.col-1 { width: 7.69%;}
-.col-2 { width: 15.38%;}
-.col-3 { width: 23.07%;}
-.col-4 { width: 30.76%;}
-.col-5 { width: 38.46%;}
-.col-6 { width: 46.15%;}
-.col-7 { width: 53.84%;}
-.col-8 { width: 61.53%;}
-.col-9 { width: 69.23%;}
-.col-10 { width: 76.92%;}
-.col-11 { width: 84.61%;}
-.col-12 { width: 92.30%;}
+    .col-right {
+        text-align: right;
+    }
 
-[class*='col-'] > p {
- padding: 0;
- margin: 0;
- text-align: center; 
+    .col-tight {
+        padding: 2px 0 2px 0;
+    }
+
+    .col-1 {
+        width: 7.69%;
+    }
+
+    .col-2 {
+        width: 15.38%;
+    }
+
+    .col-3 {
+        width: 23.07%;
+    }
+
+    .col-4 {
+        width: 30.76%;
+    }
+
+    .col-5 {
+        width: 38.46%;
+    }
+
+    .col-6 {
+        width: 46.15%;
+    }
+
+    .col-7 {
+        width: 53.84%;
+    }
+
+    .col-8 {
+        width: 61.53%;
+    }
+
+    .col-9 {
+        width: 69.23%;
+    }
+
+    .col-10 {
+        width: 76.92%;
+    }
+
+    .col-11 {
+        width: 84.61%;
+    }
+
+    .col-12 {
+        width: 92.30%;
+    }
+
+    [class*='col-'] > p {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
 }
